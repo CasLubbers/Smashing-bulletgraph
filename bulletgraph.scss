@@ -1,0 +1,30 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #40b2f1;
+
+// ----------------------------------------------------------------------------
+// Widget-clock styles
+// ----------------------------------------------------------------------------
+
+.widget-bulletgraph{
+  background: $background-color;
+}
+
+h1{
+  padding: 0px;
+  margin: 0px;
+}
+
+#gd {
+  margin-top:0px;
+  background: $background-color;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: Dosis;
+  background: $background-color;
+
+}
