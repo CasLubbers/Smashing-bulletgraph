@@ -6,7 +6,7 @@ class Dashing.Bulletgraph extends Dashing.Widget
     settings = []
     upper = 0.3
     i = 0;
-    while i < 3
+    while i < 3 and dataset1[i] != null
       obj = {
           type: 'indicator'
           mode: 'number+gauge+delta'
